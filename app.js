@@ -6,5 +6,5 @@ app.get("/",function(req,res)
 });
 const port=process.env.PORT || 3000
 app.listen(3000,function(){
-    Console.log("port 3000 is using");
+    console.log("port 3000 is using");
 });
