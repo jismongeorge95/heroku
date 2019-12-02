@@ -1,16 +1,23 @@
 {
   "name": "heroku",
   "version": "1.0.0",
-  "description": "server",
+  "description": "",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\""
-  },
-  "start":"node app.js"
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
-  }
-  "engine":{"node":"8.x"}
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jismongeorge95/heroku.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jismongeorge95/heroku/issues"
+  },
+  "homepage": "https://github.com/jismongeorge95/heroku#readme"
 }
